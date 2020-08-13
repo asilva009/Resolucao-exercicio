@@ -40,9 +40,5 @@ function textWrap(string $text, int $length): array {
     }
     return $resultado;
 }
-    
-$text = "Se vi o que vi foi por estar de pé sobre ombros de gigantes"; 
-$length = 12;
 
-print_r(textWrap($text, $length));
 ?>
